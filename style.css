@@ -1,0 +1,191 @@
+head{
+  background-color: black;
+}
+
+body{
+  background-color: black;
+}
+
+
+#ponyheader{
+    color : green;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: Impact, sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    border-style: solid;
+    border-color: green;
+    border-width: 3px;
+}
+
+#ponylink{
+  text-decoration: none;
+}
+
+.links{
+  text-align: center;
+  margin-top: 5px;
+}
+
+.topOfPageLink{
+  padding-right: 50px;
+  padding-left: 50px;
+  background-color: white;
+  color: black;
+  vertical-align: middle;
+  font-size: 40px;
+  text-decoration: none;
+  font-family: Impact, sans-serif;
+  border-style: solid;
+  border-color: green;
+  border-width: 3px;
+}
+
+#selected{
+  background-color: black;
+  color: white;
+}
+
+.topOfPageLink:hover{
+  background-color: grey
+}
+
+
+div.about-text{
+    height: 300px;
+    width: 600px;
+    overflow:scroll;
+    padding: 5px;
+    border: 1px solid;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.show{
+  border-style: solid;
+  border-color: green;
+  border-width: 2px;
+}
+
+.date{
+    background-color: green;
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+    font-family: Impact, sans-serif;
+}
+
+.venue{
+  color: white;
+  text-align: center;
+  font-family: Impact, sans-serif;
+  font-size: 50px;
+}
+
+.city{
+  color: green;
+  text-align: center;
+  font-family: Impact, sans-serif;
+  font-size: 25px;
+}
+
+a.info:link, a.info:visited{
+  display: block;
+  text-align: center;
+  color: green;
+  font-family: Impact, sans-serif;
+}
+
+a.info:hover{
+  color: white;
+}
+
+div.line {
+    width: 500px;
+    height: 0px;
+    background-color: black;
+    border: solid 1px black;
+    margin: 3px;
+    display:inline-block;
+  }
+
+
+/* Forward & Back buttons */
+#back{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  font-size: 18px;
+  border-radius: 0 3px 3px 0;
+
+}
+
+#forward{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  font-size: 18px;
+  border-radius: 0 3px 3px 0;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.slides {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.slideshowContainer {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.videotitle{
+  color: green;
+  padding-top: 10px;
+  font-family: Impact, sans-serif;
+}
+
+#tracksheader{
+  color:green;
+  font-family: Impact, sans-serif;
+}
+  
+a.track:link, a.track:visited{
+  color: white;
+  font-family: Impact, sans-serif;
+  text-decoration: none;
+}
+
+a.track:hover{
+  color: green;
+}
+
+fieldset{
+  border: green;
+  border-style: solid;
+  border-width: 2px;
+}
+
+label{
+  color: green;
+  font-family: Impact, sans-serif;
+}
+  
+legend{
+  color: green;
+  font-family: Impact, sans-serif;
+}
+
+  

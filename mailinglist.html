@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Mailing List | Big Ol' Pony</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+
+        <!-- Big Ol' Pony Header-->
+        <a href="http://web.engr.oregonstate.edu/~taylordo/project/homepage.html" id='ponylink'>
+            <div id="ponyheader"> BIG OL' PONY </div>
+
+        <!-- Links -->
+        <div class= "links">
+            <a href="http://web.engr.oregonstate.edu/~taylordo/project/about.html" class = "topOfPageLink">ABOUT</a>
+            <a href="http://web.engr.oregonstate.edu/~taylordo/project/shows.html" class = "topOfPageLink" >SHOWS</a>
+            <a href="http://web.engr.oregonstate.edu/~taylordo/project/media.html" class = "topOfPageLink">MEDIA</a>
+            <a href="http://web.engr.oregonstate.edu/~taylordo/project/mailinglist.html" class = "topOfPageLink" id = "selected">MAILING LIST</a>
+        </div>
+    </head>
+    <body>
+        <br>
+
+        <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="post">
+            <fieldset> 
+                <legend>Subscribe to our mailing list!</legend>
+                <label>Name:
+                    <input type="text" name="name" size="30" maxlength="100">
+                </label>
+                <br />
+                <label>Email:
+                    <input type="email" name="email" size="30" maxlength="100">
+                </label>
+                <br />
+                <label for="something-weird">Tell us something weird:</label>
+                <br />
+                <textarea rows="4" cols="40" id="something-weird"></textarea>
+                <br />
+
+                <input type="submit" value="Subscribe!"/>
+            </fieldset>
+        </form>
+    </body>
+</html>
