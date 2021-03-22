@@ -53,7 +53,7 @@ body{
 
 
 div.about-text{
-    height: 300px;
+    height: 100px;
     width: 600px;
     overflow:scroll;
     padding: 5px;
